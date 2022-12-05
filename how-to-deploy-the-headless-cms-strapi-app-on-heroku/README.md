@@ -1,3 +1,5 @@
+## Get started with the strapi app
+
 It is often confusing, how to deploy your strapi app by using cloud providers but we could not deploy it using static site hosting platforms such as **[Vercel](http://vercel.com), [Netlify](http://netlify.com), [Github Pages](https://www.notion.so/How-to-deploy-the-Headless-CMS-Strapi-app-on-Heroku-7f40b8f2d8414f3f81e8a0caccf9c1f1),** etc. because strapi runs an HTTP server based on Koa, a backend javascript framework. However, these are not that trivial for someone who is not into DevOps. I will walk you through how to install your Strapi instance on Heroku. In this article, I will demystify it through examples and code blocks.
 
 ## Introduction to Strapi
@@ -42,19 +44,22 @@ In this guide, we are going to:
 
 To install Strapi locally, run this command in your GitHub repository.
 
-<p>
-<aside>
+```
 💡 npx create-strapi-app@latest my-project --quickstart
-</aside>
-</p>
-<p>
-<aside>
-💡 yarn create strapi-app my-project --quickstart
-</aside>
-</p>
+```
 
-When the dependencies installed and the local setup completes, it will create a project my-project, then you should be redirect to admin access [**http://localhost:1337/admin**](http://localhost:1337/admin) register an admin user using the form which opens in the browser.
+```
+💡 yarn create strapi-app my-project --quickstart
+```
+
+When the dependencies are installed and the local setup completes, it will create a project my-project, then you should be redirected to admin access [**http://localhost:1337/admin**](http://localhost:1337/admin) register an admin user using the form which opens in the browser.
 
 If you’re redirecting for the first time then you’re redirecting to [**http://localhost:1337/admin/auth/register-admin**](http://localhost:1337/admin/auth/register-admin). This is because we have no super admin yet in the database. By default, Strapi uses SQLite as a file-based database.
 
-When you are registered successfully, you’re the super admin of your app. You can invite other folks through email to get access for the superadmin, author, editor roles.
+When you are registered successfully, you’re the super admin of your app. You can invite other folks through email to get access to the super admin, author, and editor roles.
+
+> Available commands in your project:
+
+- yarn develop
+
+  Start Strapi in watch mode. (Changes in Strapi)
