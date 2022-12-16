@@ -1,1 +1,1 @@
-# tech-blogs
+# A list of amazing blogs
