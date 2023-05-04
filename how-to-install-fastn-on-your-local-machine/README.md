@@ -32,8 +32,8 @@ To benefit the most from this article, the following pre-requisites are required
 
 Based on the machines, there are three ways to install fastn:
 
-1. Install fastn through the pre-built library on **Windows** (Recommended)
-2. Install fastn through the pre-built library on **MacOS/Linux** (Recommended)
+1. Install fastn through the pre-built binary on **Windows** (Recommended)
+2. Install fastn through the pre-built binary on **MacOS/Linux** (Recommended)
 3. Install fastn using cargo
 4. Install fastn from source
 
@@ -45,18 +45,18 @@ We recommend you install `fastn` through `pre-built binary`.
 This is the preferred method as it only requires downloading the binary and installing it on your local system.
 ```
 
-### 👉Install fastn through the pre-built library on **Windows**
+### 👉Install fastn through the pre-built binary on **Windows**
 
-To install `fastn` through the pre-built library, follow these steps:
+To install `fastn` through the pre-built binary, follow these steps:
 
 - Download the executable from the **[Releases](https://github.com/fastn-stack/fastn/releases)** page
-- Check the latest release
+- Click on the latest release
 - Get the executable file for Windows on the releases page under Assets
 - Create a folder named `FASTN` in your **C** drive
 - Go to **Settings** and search for **Environmental Variable**
 - Check for **Path** and double-click on it in the user variables
 - Click on the **New** button and set a path for **FASTN** in your machine's **Environment Variable**
-- The recommended path would be `C:\\FASTN`, then apply settings.
+- The recommended path would be `C:\FASTN`, then apply settings.
 
 ![gif](https://fastn.com/-/fastn.io/images/setup/windows-fastn-installation.gif)
 
@@ -71,7 +71,7 @@ If you face any difficulty while installing fastn, check out the **[youtube](htt
 
 ---
 
-### 👉Install fastn through the pre-built library on MacOS/Linux
+### 👉Install fastn through the pre-built binary on MacOS/Linux
 
 For MacOS, we have an installer script, you just need to copy and paste the given below script into the terminal
 
